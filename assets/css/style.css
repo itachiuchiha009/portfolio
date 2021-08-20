@@ -94,7 +94,7 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #0078ff;
+  background-color: #008080;
 }
 
 .overlay-mf {
@@ -809,10 +809,16 @@ a:hover {
 
 .about-mf .about-img {
   margin-bottom: 2rem;
+  width: 400px;
+  height: 800px;
+  object-fit: cover;
 }
 
 .about-mf .about-img img {
   margin-left: 10px;
+  width: 400px;
+  height: 800px;
+  object-fit: cover;
 }
 
 @media (min-width: 767px) {
@@ -1112,7 +1118,7 @@ a:hover {
 }
 
 .contact-mf {
-  margin-top: 4rem;
+  margin-top: auto;
 }
 
 @media (min-width: 767px) {
@@ -1122,7 +1128,7 @@ a:hover {
   }
 }
 
-.php-email-form .error-message {
+/* .php-email-form .error-message {
   display: none;
   color: #fff;
   background: #ed3c0d;
@@ -1189,7 +1195,7 @@ a:hover {
 
 .php-email-form button[type="submit"]:hover {
   background: #3393ff;
-}
+} */
 
 @-webkit-keyframes animate-loading {
   0% {
@@ -1430,7 +1436,7 @@ footer {
   text-align: center;
   color: #fff;
   padding: 25px 0;
-  background: #0062d3;
+  background: #008080;
 }
 
 footer .copyright {
